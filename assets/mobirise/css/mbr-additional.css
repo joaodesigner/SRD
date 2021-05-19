@@ -1111,7 +1111,7 @@ section.lazy-placeholder:after {
   color: #a8b7ff !important;
 }
 .cid-sw8K5qrISt {
-  padding-top: 144px;
+  padding-top: 126px;
   padding-bottom: 120px;
   background-image: url("../../../assets/images/topo2-1808x497.jpg");
 }
@@ -1310,8 +1310,8 @@ section.lazy-placeholder:after {
   fill: #814bc9;
 }
 .cid-tOBszNprDd {
-  padding-top: 75px;
-  padding-bottom: 105px;
+  padding-top: 135px;
+  padding-bottom: 135px;
   background-image: url("../../../assets/images/fundo-1-2000x1194.jpeg");
 }
 .cid-tOBszNprDd .mbr-text {
@@ -1366,6 +1366,7 @@ section.lazy-placeholder:after {
 .cid-tOBszNprDd .text,
 .cid-tOBszNprDd .mbr-section-btn {
   color: #ffffff;
+  text-align: left;
 }
 .cid-swgkFBPjHC .row,
 .cid-swgkFBPjHC .rowUp {
@@ -1435,54 +1436,57 @@ section.lazy-placeholder:after {
 .cid-swgkFBPjHC .secondColor {
   fill: #814bc9;
 }
-.cid-swgH0gSkAx {
-  padding-top: 60px;
+.cid-sxjTZ2SMYg {
+  padding-top: 15px;
   padding-bottom: 75px;
   background-color: #ffffff;
 }
-.cid-swgH0gSkAx .mbr-section-subtitle {
-  color: #767676;
-}
-.cid-swgH0gSkAx .media-row {
-  display: -webkit-flex;
+.cid-sxjTZ2SMYg .carousel-item {
   justify-content: center;
   -webkit-justify-content: center;
 }
-.cid-swgH0gSkAx .team-item {
-  transition: all .2s;
-  margin-bottom: 2rem;
+.cid-sxjTZ2SMYg .carousel-item.active,
+.cid-sxjTZ2SMYg .carousel-item-next,
+.cid-sxjTZ2SMYg .carousel-item-prev {
+  display: flex;
 }
-.cid-swgH0gSkAx .team-item .item-image img {
+.cid-sxjTZ2SMYg .carousel-controls a {
+  transition: opacity .5s;
+  font-size: 2rem;
+}
+.cid-sxjTZ2SMYg .carousel-controls a span {
+  position: absolute;
+  top: 180px;
+  padding: 10px;
+  border-radius: 50%;
+  color: #585858;
+  background: #c8c6c6;
+  opacity: .5;
+}
+.cid-sxjTZ2SMYg .carousel-controls a:hover span {
+  opacity: 1;
+}
+.cid-sxjTZ2SMYg .user_image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 1.6rem;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0 auto 2rem auto;
+}
+.cid-sxjTZ2SMYg .user_image img {
   width: 100%;
+  min-width: 100%;
+  min-height: 100%;
 }
-.cid-swgH0gSkAx .team-item .item-name p {
-  margin-bottom: 0;
+@media (max-width: 230px) {
+  .cid-sxjTZ2SMYg .user_image {
+    width: 100%;
+    height: auto;
+  }
 }
-.cid-swgH0gSkAx .team-item .item-role p {
-  margin-bottom: 0;
-}
-.cid-swgH0gSkAx .team-item .item-social {
-  display: -webkit-flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  -webkit-flex-wrap: wrap;
-  -webkit-justify-content: center;
-}
-.cid-swgH0gSkAx .team-item .item-social .socicon {
-  color: #232323;
-  font-size: 17px;
-}
-.cid-swgH0gSkAx .team-item .item-caption {
-  background: #9d77d6;
-}
-.cid-swgH0gSkAx H2 {
+.cid-sxjTZ2SMYg H2 {
   color: #814bc9;
-}
-.cid-swgH0gSkAx .item-name {
-  color: #ffffff;
-}
-.cid-swgH0gSkAx .item-role P {
-  color: #000e8c;
 }
 .cid-swhbDD8g8b {
   padding-top: 90px;
@@ -1507,71 +1511,6 @@ section.lazy-placeholder:after {
 }
 .cid-swhbDD8g8b H2 {
   color: #814bc9;
-}
-.cid-swaKp36nKD {
-  padding-top: 30px;
-  padding-bottom: 90px;
-  background-color: #ffffff;
-}
-.cid-swaKp36nKD div.b {
-  padding-top: 2rem;
-}
-.cid-swaKp36nKD .mbr-text {
-  color: #767676;
-  margin: 0;
-  padding-top: 1.5rem;
-}
-.cid-swaKp36nKD a:not([href]):not([tabindex]) {
-  color: #fff;
-  border-radius: 3px;
-}
-.cid-swaKp36nKD .google-map {
-  height: 25rem;
-  position: relative;
-}
-.cid-swaKp36nKD .google-map iframe {
-  height: 100%;
-  width: 100%;
-}
-.cid-swaKp36nKD .google-map [data-state-details] {
-  color: #6b6763;
-  font-family: Montserrat;
-  height: 1.5em;
-  margin-top: -0.75em;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  width: 100%;
-}
-.cid-swaKp36nKD .google-map[data-state] {
-  background: #e9e5dc;
-}
-.cid-swaKp36nKD .google-map[data-state="loading"] [data-state-details] {
-  display: none;
-}
-.cid-swaKp36nKD div.left-block.wrapper {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-@media (max-width: 767px) {
-  .cid-swaKp36nKD div.left-block.wrapper {
-    padding-bottom: 3rem;
-  }
-}
-.cid-swaKp36nKD H2 {
-  text-align: center;
-  color: #081ee4;
-}
-.cid-swaKp36nKD H5 {
-  color: #814bc9;
-}
-.cid-swaKp36nKD .mbr-section-subtitle {
-  color: #081ee4;
-  text-align: left;
 }
 .cid-swgFnUvmZX {
   padding-top: 45px;
